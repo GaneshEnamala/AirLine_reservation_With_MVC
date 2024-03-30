@@ -18,6 +18,7 @@ public class FlightController {
 	@RequestMapping(path = { "/", "index" })
 	public ModelAndView getHomePage() {
 		ModelAndView model = new ModelAndView();
+		System.out.println("Starting...");
 		model.setViewName("index");
 		return model;
 	}
